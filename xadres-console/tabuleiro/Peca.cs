@@ -17,5 +17,14 @@ namespace tabuleiro
             Color = color;
             QteMovimentos = 0;
         }
+
+        public void incrementarQteMovimentos()
+        {
+            QteMovimentos++;
+        }
+        public void decrementarQteMovimentos()
+        {
+            QteMovimentos--;
+        }
     }
 }
