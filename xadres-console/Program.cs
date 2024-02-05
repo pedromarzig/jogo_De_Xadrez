@@ -24,6 +24,7 @@ namespace xadres_console
                     Console.Write("Destino: ");
                     Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
 
+                    partida.executaMovimento(origem, destino);
                 }
             }
             catch(TabuleiroExeption e)
